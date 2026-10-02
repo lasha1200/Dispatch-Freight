@@ -1,0 +1,10 @@
+/* App specific layout utilities */
+.user-info-text {
+  display: flex !important;
+}
+
+@media (max-width: 768px) {
+  .user-info-text {
+    display: none !important;
+  }
+}
